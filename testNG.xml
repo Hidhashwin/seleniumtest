@@ -1,0 +1,22 @@
+<suite name="testng test" parallel="class" thread-count="2">
+	
+	<test name="testngtest">
+		<parameter name="URL1" value="https://www.yahoo.co.in/"></parameter>
+		<parameter name="URL2" value="https://www.bing.com/"></parameter>
+		<classes>
+			<class name="testNGtest.parameterizationsample1"></class>
+		</classes>
+	</test>
+</suite>
+
+<!--<groups>
+			
+			<run>
+				<exclude name="moto"></exclude>	
+					<exclude name="mi"></exclude>
+					
+			</run>
+		</groups>-->
+		<!--<listners>
+		<listner class-name="testNGtest.Listnerexample"></listner>
+	</listners>-->
