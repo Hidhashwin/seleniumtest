@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGtest.dataprovidersample">
+      <class name="seleniumtest.trail2">
         <methods>
-          <include name="orangHRM"/>
-          <include name="launchbrowser"/>
-          <include name="teardown"/>
+          <include name="dropdowntest"/>
         </methods>
-      </class> <!-- testNGtest.dataprovidersample -->
+      </class> <!-- seleniumtest.trail2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
